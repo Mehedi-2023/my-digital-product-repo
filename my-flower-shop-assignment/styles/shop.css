@@ -1,0 +1,130 @@
+/*shard a commone style*/
+body{
+    
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header {
+    background: #FFF8F3;
+    width: 1920px;
+    height: 850px;
+   
+}
+
+.banner{
+
+  background-color:background: rgba(229, 84, 115, 0.10); 
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.banner-title{
+
+        color: #272727;
+        font-size: 75px;
+        font-style: normal;
+        font-weight: 800;
+        width: 708px;
+        margin:190px 0px 0px 240px;
+    }       
+  
+
+
+
+.banner-parg{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    width: 634px;
+    margin: 32px 0px 32px 240px;
+
+
+
+}
+
+.btn-primary {
+
+    background: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+    margin: 32px 0px 167px 235px;
+    border: none;
+    
+
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.profile-pic {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    margin: 50px 240px 1050px 0px;
+    justify-content: space-between;
+
+
+}
+
+/*main section styles*/
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    
+    margin: 178px 24px ;
+
+
+
+}
+
+
+.section-parg {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+   
+    width: 594px; 
+    margin: 0px 48px 660px 660px;
+    justify-content: space-between;
+    display: flexbox ;
+    
+}
+.feature-conteiner {
+    display: flex;
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+
+}
+.img-conteiner-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+}
+.img-conteiner-2 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+
+}
+
+.img-conteiner-3{
+
+
+}
+

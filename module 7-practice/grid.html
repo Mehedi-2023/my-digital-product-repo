@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> use a display grid </title>
+    <style>
+
+            .flower-conteiner{
+                display: grid;
+                grid-template-columns: 400px 400px;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .box{
+                border: 2px solid grey;
+                padding: 15px;
+                margin: 25px;
+                width: 350px;
+               
+            }
+
+            <!--small mobile-->
+
+            @media screen and (max-width:450px){
+                    
+                        .flower-conteiner{
+
+                            grid-template-columns: repeat(1,1fr);
+                        }
+            }
+
+         
+
+
+         
+
+    </style>
+</head>
+<body>
+    <header>
+  <!-- flower-conteiner -->
+
+<div class="flower-conteiner">
+
+    <div class="box">
+        <img src="image/Flower 01.png" alt="" >
+        <h3>flower item -1</h3>
+        <h4>price: $100</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, 
+             adipisicing elit. Eligendi magni,
+              nulla accusantium dolorem maxime 
+              deserunt rem iste odio ipsum quasi?</p>
+    </div>
+
+    <div class="box">
+        <img src="image/pngwing 5.png" alt="" scr="">
+        <h3>flower item -2</h3>
+        <h4>price: $200</h4>
+        <p>Nam inventore quae veniam,
+             ipsa quibusdam libero eius 
+             iusto eos necessitatibus. 
+             Enim aliquam expedita perspiciatis aliquid
+              dolores, quae odio modi!</p>
+    </div>
+
+    <div class="box">
+        <img src="image/pngwing 6.png" alt="" scr="">
+        <h3>flower item -3</h3>
+        <h4>price: $300</h4>
+        <p>Perferendis consequuntur eum tempore,
+             optio quo aperiam, vitae officia sequi quae in, 
+             deserunt nisi inventore praesentium 
+             perspiciatis dicta provident aliquid.</p>
+    </div>
+
+
+    <div class="box">
+        <img src="image/pngwing 7.png" alt="" scr="">
+        <h3>flower item -4</h3>
+        <h4>price: $400</h4>
+        <p>Ad numquam, maxime blanditiis omnis 
+            amet atque libero velit sit inventore 
+            mollitia laudantium quam unde praesentium 
+            nihil accusamus, eius similique.</p>
+    </div>
+
+
+    <div class="box">
+        <img src="image/pngwing 8.png" alt="" scr="">
+        <h3>flower item -5</h3>
+        <h4>price: $500</h4>
+        <p>Incidunt ratione, provident nihil,
+             sequi ut accusamus, in molestiae fuga quasi minima 
+             doloribus quam beatae quod laboriosam voluptatibus 
+             id mollitia.</p>
+    </div>
+
+    <div class="box">
+        <img src="image/Rectangle 5.png" alt="" scr="">
+        <h3>flower item -6</h3>
+        <h4>price: $500</h4>
+        <p>Incidunt ratione, provident nihil,
+             sequi ut accusamus, in molestiae fuga quasi minima 
+             doloribus quam beatae quod laboriosam voluptatibus 
+             id mollitia.</p>
+    </div>
+
+    <div class="box">
+        <img src="image/Rectangle 6.png" alt="" scr="">
+        <h3>flower item -7</h3>
+        <h4>price: $500</h4>
+        <p>Incidunt ratione, provident nihil,
+             sequi ut accusamus, in molestiae fuga quasi minima 
+             doloribus quam beatae quod laboriosam voluptatibus 
+             id mollitia.</p>
+    </div>
+
+</div>
+
+    </header>
+</body>
+</html>

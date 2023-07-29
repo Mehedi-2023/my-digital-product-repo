@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how to use flex and grid</title>
+    <style>
+
+            .box{
+
+                border: 10px solid black;
+                border-radius: 70px 70px 0PX 0px ;
+                padding: 20px;
+                margin: 30px;
+                width: fit-content;
+                height: 285px;
+                width: 300px;
+                text-align: center;
+             
+               
+
+            }
+               .flower-conteiner {
+
+             display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+             border: 100px;
+            background-color: rgb(58, 173, 135);
+      
+               }
+               .btn-flower {
+                    background-color: crimson;
+                    color: aliceblue;
+                    border-radius: 2px;
+                    border: 2px solid red;
+                    padding: 1px;
+                    margin: 3px;
+                    width: 60px;
+                    text-align: center; 
+               }
+                    
+             
+        .flower{
+            height: 100PX;
+            width: 100px;
+        }     
+
+           <!--small a mobile phone-->      
+    
+          
+          @media screen and (min-width:576px) and (max-width:820px) {
+
+            .flower-conteiner{
+                grid-template-colums:repeat(1,1fr)
+            }
+            
+          }
+
+    
+              
+
+    </style>
+
+</head>
+
+<body>
+
+   
+
+    <main>
+            <!--flower conteiner -->  
+
+    <div class="flower-conteiner">
+
+             <!--flower conteiner box 1-->>
+
+        <div class="box">
+            <img class="flower" src="image/Flower 01.png" alt="flower 01">
+            <h1 class="box-title">flower item -1</h1>
+            <h3 class="box-parg">price:$100</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, unde.</p>
+            <button class="btn-flower">Buy Now</button>
+        </div>
+
+             <!--flower conteiner box 2-->  
+
+        <div class="box">
+            <img class="flower"  src="image/Rectangle 4.png" alt="" >
+            <h1 class="box-title">flower item -2</h1>
+            <h3 class="box-parg">price:$200</h3>
+            <p>Nam veritatis odit, assumenda est laborum cum tenetur facilis consectetur!</p>
+            <button class="btn-flower">Buy Now</button>
+        </div>
+
+         <!--flower conteiner box 3-->  
+
+        <div class="box">
+            <img class="flower" src="image/Rectangle 5.png" alt="" >
+            <h1 class="box-title">flower item -3</h1>
+
+            <h3 class="box-parg">price:$300</h3>
+            <p>Veniam dolores repellat saepe velit voluptatibus quis sint quas mollitia!</p>
+            <button class="btn-flower">Buy Now</button>
+        </div>
+
+            <!--flower conteiner box 4 --> 
+
+        <div class="box">
+            <img class="flower"  src="image/Rectangle 6.png" alt="" >
+            <h1 class="box-title">flower item -4</h1>
+            <h3 class="box-parg">price:$400</h3>
+            <p>Quis doloribus ex alias quas illum similique deserunt. Cum, architecto!</p>
+            <button class="btn-flower">Buy Now</button>
+        </div>
+
+
+        <!--flower conteiner box 5 --> 
+
+        <div class="box">
+            <img class="flower" src="image/pngwing 6.png" alt="" >
+            <h1 class="box-title">flower item -5</h1>
+            <h3 class="box-parg">price:$500</h3>
+            <p>Optio delectus ex minima natus ullam at, sit impedit omnis.</p>
+            <button class="btn-flower">Buy Now</button>
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+
+</footer>
+
+</body>
+</html>
